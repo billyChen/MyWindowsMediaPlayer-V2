@@ -1,0 +1,62 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<!-- STACK PANEL -->
+    <Style x:Key="MainTheme" TargetType="StackPanel">
+        <Setter Property="Background" Value="White"></Setter>
+    </Style>
+    
+    <Style x:Key="Theme1" TargetType="StackPanel">
+        <Setter Property="Background">
+            <Setter.Value>
+                <ImageBrush ImageSource="/Images/theme1stockPanel.png" />
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+    <Style x:Key="Theme2" TargetType="StackPanel">
+        <Setter Property="Background">
+            <Setter.Value>
+                <ImageBrush ImageSource="/Images/theme2stockPanel.png" />
+            </Setter.Value>
+        </Setter>
+    </Style>
+    
+    <Style x:Key="Theme3" TargetType="StackPanel">
+        <Setter Property="Background">
+            <Setter.Value>
+                <ImageBrush ImageSource="/Images/theme3stockPanel.png" />
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+
+    <!-- TOOLBAR -->
+    <Style x:Key="MainThemeTB" TargetType="ToolBar">
+        <Setter Property="Background" Value="White"></Setter>
+    </Style>
+
+    <Style x:Key="Theme1TB" TargetType="ToolBar">
+        <Setter Property="Background">
+            <Setter.Value>
+                <ImageBrush ImageSource="/Images/theme1toolBar.png" />
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+    <Style x:Key="Theme2TB" TargetType="ToolBar">
+        <Setter Property="Background">
+            <Setter.Value>
+                <ImageBrush ImageSource="/Images/theme2toolBar.png" />
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+    <Style x:Key="Theme3TB" TargetType="ToolBar">
+        <Setter Property="Background">
+            <Setter.Value>
+                <ImageBrush ImageSource="/Images/theme3toolBar.png" />
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+</ResourceDictionary>
